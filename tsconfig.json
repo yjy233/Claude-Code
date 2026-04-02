@@ -4,6 +4,7 @@
     "module": "ESNext",
     "moduleResolution": "bundler",
     "ignoreDeprecations": "6.0",
+    "allowImportingTsExtensions": true,
     "allowJs": true,
     "checkJs": false,
     "jsx": "react-jsx",

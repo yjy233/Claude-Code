@@ -1,1 +1,1 @@
-export function restoreFromEntries(): void {}
+export function restoreFromEntries(..._args: unknown[]): void {}
