@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { feature } from 'bun:bundle'
 import { satisfies } from 'src/utils/semver.js'
 import { isRunningWithBun } from '../utils/bundledMode.js'

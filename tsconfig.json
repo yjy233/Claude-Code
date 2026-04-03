@@ -3,7 +3,7 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "ignoreDeprecations": "6.0",
+    "ignoreDeprecations": "5.0",
     "allowImportingTsExtensions": true,
     "allowJs": true,
     "checkJs": false,
@@ -13,6 +13,16 @@
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
+    "noEmit": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": false,
+    "noPropertyAccessFromIndexSignature": false,
+    "noUncheckedIndexedAccess": false,
+    "exactOptionalPropertyTypes": false,
     "baseUrl": ".",
     "paths": {
       "src/*": [
@@ -21,6 +31,10 @@
     },
     "types": [
       "bun"
+    ],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/typings"
     ]
   },
   "include": [
